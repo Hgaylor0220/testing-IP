@@ -5,22 +5,27 @@ import { Galactic } from './../src/test-project.js'
     it('should expect to fail/if it doesnt return a planet', function() {
       let mercuryCalculator = "Mercury";
       let venusCalculator = "Venus";
-      let mmarsCalculator = "Mars";
+      let marsCalculator = "Mars";
       let jupiterCalculator = "Jupiter";
-      let galacticCalulation = new Galactic(mercuryCalculator,venusCalculator,marsCalculator,jupiterCalculator);
-      console.log(jupiterCalculator);
+      var galacticCalulation = new Galactic(mercuryCalculator,venusCalculator,marsCalculator,jupiterCalculator);
 
       expect(galacticCalulation.jupiterCalculator).toEqual(jupiterCalculator)
     })
-  //
-  //   it('expect pass/ userinput through letter', function() {
-  //     let letter = "a";
-  //     var alphabet1 = new Alphabet(letter);
-  //     console.log(alphabet1);
-  //     alphabet1.naMes();
-  //     expect(alphabet1.letter).toEqual("a")
-  //   })
-  //
+
+
+    it('expect pass/ calculator give you a number ', function() {
+      var mercuryCalculator = .24;
+      let venusCalculator = "Venus";
+      let marsCalculator = "Mars";
+      let jupiterCalculator = "Jupiter";
+      let earthYears = 1;
+      var galacticCalculation = new Galactic(mercuryCalculator,venusCalculator,marsCalculator,jupiterCalculator);
+      console.log(galacticCalculation);
+
+      galacticCalculation.ageCalculator();
+      expect(mercuryCalculator).toEqual(.24)
+    })
+
   //   it('expect pass/ should check length of letter', function() {
   //      let letter = "this ia a test sentence";
   //      var alphabet1 = new Alphabet(letter);
