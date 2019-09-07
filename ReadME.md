@@ -31,7 +31,7 @@
 
 ## Known Bugs
 
-* Price is not associating with the submit function. Work in processes
+*
 
 ## Support and contact details
 
