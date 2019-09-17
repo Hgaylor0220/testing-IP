@@ -22,7 +22,7 @@
      })
    })
    describe('GalacticCalculator', function() {
-       //first test to pass
+      
        it('should expect to pass/if it returns correct value of the age in mercury years', function() {
          let age = 35;
          let galCal = new GalacticCalculator(age);
@@ -33,7 +33,7 @@
        })
      })
      describe('GalacticCalculator', function() {
-         //first test to pass
+
          it('should expect to pass/if it returns correct value of the age in venus years', function() {
            let age = 35;
            let galCal = new GalacticCalculator(age);
@@ -50,7 +50,7 @@
          })
        })
        describe('GalacticCalculator', function() {
-           //first test to pass
+
            it('should expect to pass/if it returns correct value of the age in mercury years', function() {
              let age = 35;
              let galCal = new GalacticCalculator(age);
@@ -69,7 +69,7 @@
            })
          })
          describe('GalacticCalculator', function() {
-             //first test to pass
+
              it('should expect to pass/if it returns correct value of the age in mercury years', function() {
                let age = 35;
                let galCal = new GalacticCalculator(age);
