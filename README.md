@@ -22,10 +22,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
-| User inputs date in correct format | 'month date, year' | 'September 26, 1981' |
-|  Test for correct input.  | 12/12/69 | undefined |
-| Determine day based on correct input | 'December 17, 1995' | Sun |
-| Program returns day based on correct input | 'December 17, 1995' | Sunday |
+
 
 
 
