@@ -1,34 +1,46 @@
- import { GalacticCalculator } from './../src/galactic-cal.js'
+ import { GalacticCalculator} from './../src/galactic-cal.js';
 
  describe('GalacticCalculator', function() {
-     //first test to pass
+     //first test to fail
      it('should expect to fail/if it returns correct value of the age', function() {
        let age = 35;
-       const galacticCalulation = new GalacticCalculator(age);
+       let galactic = new GalacticCalculator(age);
+       console.log(galactic);
 
-
-       expect(galacticCalulation.age).toEqual("age")
+       expect(galactic.age).toEqual("age")
      })
    })
-
+// second test should pass
  describe('GalacticCalculator', function() {
-
-     it('should expect to pass/if it returns correct value of the age', function() {
+     //second test to pass
+     it('should expect to fail/if it returns correct value of the age', function() {
        let age = 35;
-       const galacticCalulation = new GalacticCalculator(age);
+       let galactic = new GalacticCalculator(age);
+       console.log(galactic);
 
-
-       expect(galacticCalulation.age).toEqual(age)
+       expect(galactic.age).toEqual(35)
      })
    })
+ // this test should pass
+ describe('GalacticCalculator', function() {
+     it('should expect to pass/if it returns correct value of the age', function() {
+       let age = 27;
+       let galactic = new GalacticCalculator(age);
+       let earthdays = 365;
+       console.log(galactic);
+       expect(galactic.earthdays).toEqual(earthdays)
+     })
+   })
+   // third test should return mercury Calculator
    describe('GalacticCalculator', function() {
-      
        it('should expect to pass/if it returns correct value of the age in mercury years', function() {
-         let age = 35;
-         let galCal = new GalacticCalculator(age);
+         let age = 27;
+         let galactic = new GalacticCalculator(age);
          let mercury = age / .22;
 
-        expect(mercury).toEqual(159.0909090909091);
+
+
+        expect(galactic.mercury).toEqual(mercury);
 
        })
      })
@@ -36,16 +48,12 @@
 
          it('should expect to pass/if it returns correct value of the age in venus years', function() {
            let age = 35;
-           let galCal = new GalacticCalculator(age);
+           let galactic = new GalacticCalculator(age);
            let mercury = age / .22;
            let venus= age / .62;
 
-           console.log(venus);
 
-
-
-
-          expect(venus).toEqual(56.45161290322581);
+          expect(galactic.venus).toEqual(venus);
 
          })
        })
@@ -53,18 +61,13 @@
 
            it('should expect to pass/if it returns correct value of the age in mercury years', function() {
              let age = 35;
-             let galCal = new GalacticCalculator(age);
+             let galactic = new GalacticCalculator(age);
              let mercury = age / .22;
              let venus = age / .62;
              let mars = age / 1.88;
              let jupiter = age / 11.86;
 
-
-             console.log(mars);
-
-
-
-            expect(mars).toEqual(18.617021276595747);
+            expect(galactic.mars).toEqual(mars);
 
            })
          })
@@ -72,14 +75,13 @@
 
              it('should expect to pass/if it returns correct value of the age in mercury years', function() {
                let age = 35;
-               let galCal = new GalacticCalculator(age);
+               let galactic = new GalacticCalculator(age);
                let mercury = age / .22;
                let venus = age / .62;
                let mars = age / 1.88;
                let jupiter = age / 11.86;
-               console.log(jupiter);
 
-              expect(jupiter).toEqual(2.9510961214165263);
+              expect(galactic.jupiter).toEqual(jupiter);
 
              })
            })
