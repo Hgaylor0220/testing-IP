@@ -18,10 +18,12 @@ export class GalacticCalculator {
   jupiterLifeCal(){
     return this.age /11.86;
   }
-  calculateLifeExpectancy(age){
-     this.earthLifeExp = 77 - this.age;
+  calculateLifeExpectancy(age,earthLifeExp){
+     this.earthLifeExp = 77 - this.age; {
+       return this.earthLifeExp;
+     }
 
-  }
+     }
 }
   // calculateMercuryLifeExp(){
   //    return this.earthLifeExp /.22;

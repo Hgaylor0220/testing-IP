@@ -61,6 +61,6 @@ describe('GalacticCalculator', function() {
 
 
 
-    expect(lifeX.calculateLifeExpectancy()).toEqual(35)
+    expect(galactic.calculateLifeExpectancy()).toEqual(42)
   })
 })
