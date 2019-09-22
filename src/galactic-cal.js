@@ -1,10 +1,7 @@
-// Back-end
 export class GalacticCalculator {
   constructor(age,earthLifeExp) {
     this.age = age;
     this.earthLifeExp = earthLifeExp;
-
-
   }
   mercuryLifeCal(){
     return this.age /.22;
@@ -21,13 +18,18 @@ export class GalacticCalculator {
   calculateLifeExpectancy(age,earthLifeExp){
      this.earthLifeExp = 77 - this.age; {
        return this.earthLifeExp;
-     }
-
-     }
+      }
+  }
+  calculateMercuryLifeExp(){
+     return this.earthLifeExp /.22;
+  }
+  calculateVenusLifeExp(){
+     return this.earthLifeExp /.62;
+  }
+  calculateMarsLifeExp(){
+     return this.earthLifeExp /1.88;
+  }
+  calculateJupiterLifeExp(){
+     return this.earthLifeExp /11.86;
+  }
 }
-  // calculateMercuryLifeExp(){
-  //    return this.earthLifeExp /.22;
-  // }
-   // calculateMercuryLifeExp(){
-   //
-   //

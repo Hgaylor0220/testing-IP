@@ -1,6 +1,6 @@
-# _{Galactic-Calculator}_
+# Galactic-Calculator}
 
-#### _{Brief description of application}, {Date of current version}_
+#### _this project will test a constructor_
 
 #### By _**{List of contributors}**_
 
@@ -20,7 +20,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Specs
 
-| Behavior | Input | Output |
+| TDD| see |specs |
 | ------------- |:-------------:| -----:|
 
 
