@@ -1,11 +1,31 @@
 // Back-end
 export class GalacticCalculator {
-  constructor(age) {
+  constructor(age,earthLifeExp) {
     this.age = age;
-    this.earthdays = 365;
-    this.mercury = age/ .22;
-    this. venus = age / .62;
-    this. mars = age / 1.88;
-    this. jupiter = age / 11.86;
+    this.earthLifeExp = earthLifeExp;
+
+
+  }
+  mercuryLifeCal(){
+    return this.age /.22;
+  }
+  venusLifeCal(){
+    return this.age /.62;
+  }
+  marsLifeCal(){
+    return this.age /1.88;
+  }
+  jupiterLifeCal(){
+    return this.age /11.86;
+  }
+  calculateLifeExpectancy(age){
+     this.earthLifeExp = 77 - this.age;
+
   }
 }
+  // calculateMercuryLifeExp(){
+  //    return this.earthLifeExp /.22;
+  // }
+   // calculateMercuryLifeExp(){
+   //
+   //
