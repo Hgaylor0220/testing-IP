@@ -43,7 +43,8 @@ describe('GalacticCalculator', function() {
   it('should expect to pass/ returns the remaders life expectancy', function() {
     let age = 35;
     let galactic = new GalacticCalculator(age);
-    expect(galactic.calculateLifeExpectancy()).toEqual(42)
+    galactic.calculateLifeExpectancy()
+    expect(galactic.earthLifeExp).toEqual(42)
   })
 })
 describe('GalacticCalculator', function() {
