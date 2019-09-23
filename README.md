@@ -1,26 +1,25 @@
-# Galactic-Calculator}
+# Galactic-Calculator
 
-#### _this project will test a constructor_
+#### _This project will run multiple test to calculate galatic age and the remainder life a user has on that planet_
 
-#### By _**{List of contributors}**_
+#### By _**Hailey J Gaylor**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This Application will allow a user to enter in a age, then it will calculate the age in galactic years based on the planet._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone the repository_
+* _Run NPM Install_
+* _Open in the browser_
+* _revel in our greatness!_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+_Should work with Mac and Windows devices_
 
 ## Specs
 
-| TDD| see |specs |
+| TDD| see |spec folder for test specs |
 | ------------- |:-------------:| -----:|
 
 
@@ -30,18 +29,18 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_All specs passing. No known bugs._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Please report all bugs to Haileygaylor@gmail.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_{Karma, Jasmine, NPM, Github, JavaScript, JQuery and linters.}_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+* License pending upon job*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2019 **_{Hailey J Gaylor, Epicodus Student}_**
